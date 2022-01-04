@@ -21,6 +21,30 @@ padding: 10px;
     padding-bottom: 0;
     text-align: justify;
 }
+.experince-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 200px;
+}
+.experince-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: left 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+}
+#left-item{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, red);
+    border-image-slice: 1;
+}
+#right-item{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(192, 192, 236), rgb(27, 58, 212));
+    border-image-slice: 1;
+}
 .hire-me-button{
     text-decoration: none;
  background-image:linear-gradient(tomato, orange);
@@ -36,4 +60,7 @@ padding: 10px;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+#footer{
+    text-align: center;
 }
